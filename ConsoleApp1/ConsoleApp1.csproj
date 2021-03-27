@@ -9,6 +9,16 @@
     <Compile Remove="Examples-Day1\ExampleForLoop.cs" />
     <Compile Remove="Examples-Day1\ExampleIf.cs" />
     <Compile Remove="Examples-Day1\ExampleOne.cs" />
+    <Compile Remove="Examples-Day1\SwitchCase.cs" />
+    <Compile Remove="Examples-Day1\WhileLoop.cs" />
+    <Compile Remove="Exercises-Day1\Exercise-A.cs" />
+    <Compile Remove="Exercises-Day1\Exercise-B.cs" />
+    <Compile Remove="Exercises-Day1\Exercise-C.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Examples-Day1\" />
+    <Folder Include="Exercises-Day1\" />
   </ItemGroup>
 
 </Project>

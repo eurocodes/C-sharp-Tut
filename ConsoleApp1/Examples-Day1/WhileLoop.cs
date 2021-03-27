@@ -10,18 +10,17 @@ namespace ConsoleApp1.Examples_Day1
         {
             int num = 10;
 
-            /*
-            while (num >= 0)
+            
+            while (num >= 5)
             {
                 Console.WriteLine("number = " + num);
                 num--;
             }
-            */
 
             // Do while Loop
             do
             {
-                Console.WriteLine("Number = " + num);
+                Console.WriteLine("Number is " + num);
                 num--;
             } while (num > 0);
 
@@ -33,9 +32,8 @@ namespace ConsoleApp1.Examples_Day1
             {
                 Console.WriteLine(item);
             }
-    {
 
-            }
+            Console.ReadKey();
         }
     }
 }
