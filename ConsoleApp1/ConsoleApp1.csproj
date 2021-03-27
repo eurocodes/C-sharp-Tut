@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Constructor-Day2\SmallBox.cs" />
+    <Compile Remove="Constructor-Day2\TestSmallBox.cs" />
+    <Compile Remove="Example-Day2\Employee.cs" />
+    <Compile Remove="Example-Day2\TestEmployee.cs" />
     <Compile Remove="Examples-Day1\ExampleForLoop.cs" />
     <Compile Remove="Examples-Day1\ExampleIf.cs" />
     <Compile Remove="Examples-Day1\ExampleOne.cs" />
@@ -17,6 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Constructor-Day2\" />
+    <Folder Include="Example-Day2\" />
     <Folder Include="Examples-Day1\" />
     <Folder Include="Exercises-Day1\" />
   </ItemGroup>
